@@ -1,0 +1,14 @@
+:root {
+    --white: #FFFFFF;
+    --bodyBg: #F8FDF1;
+    --lightestGreen: #F1F8E8;
+    --lightGreen: #D8EFD3;
+    --green: #95D2B3;
+    --darkGreen: #55AD9B;
+    --textColorBlack: #000000;
+}
+
+@mixin icon-bg($alpha: 1) {
+    background-color: var(--lightGreen);
+    opacity: $alpha; // Separate opacity control
+}

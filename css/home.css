@@ -1,0 +1,39 @@
+.dev-container {
+  padding: 1em;
+  width: auto;
+  height: auto;
+  background-color: var(--green);
+}
+.dev-container .image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.dev-container .image-container img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid var(--lightGreen);
+}
+.dev-container .dev-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--Poppins);
+}
+.dev-container .dev-details .dev-name {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--lightGreen);
+  text-align: center;
+  margin-top: 1rem;
+}
+.dev-container .dev-details .dev-desc {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--textColorBlack);
+  text-align: center;
+  margin-top: 1rem;
+}

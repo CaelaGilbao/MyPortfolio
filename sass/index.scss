@@ -1,0 +1,15 @@
+@use '../partials/general' as *;
+@use 'nav_bar';
+@use 'home';
+
+body{
+    background-color: var(--bodyBg);
+    @include default_body_margin();
+
+    #home-section{
+        width: 365px;
+        height: auto;
+        color: ver(--green);
+    }
+}
+
